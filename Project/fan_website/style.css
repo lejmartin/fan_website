@@ -1,0 +1,45 @@
+/* Container holding the image and the text */
+.container {
+    size: 100%;
+    }
+h1{
+    color: black;
+    font-size: 3.75 em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 a {
+    color: black;
+    font-size: 1 em;
+    text-decoration: none;
+}
+p a {
+    color: black;
+    font-size: 1 em;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    font-size: 1.5 em;
+    height: 7.5%;   /* Height of the footer */
+       
+ }
+#playbutton{
+        background-color: black; 
+        border: none;
+        color: white;
+        padding: 1% 2%;
+        text-align: center;
+        text-decoration: none;
+        /*display: inline-block; */
+        font-size: 0.75 em;
+        border-radius: 30%;
+        position: absolute;
+        top:50%;
+        right: 50%;
+}
